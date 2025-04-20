@@ -5,38 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Emily Jao's IST 110 Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="portfolio.js">
 </head>
 <body>
-
     <div class="tabs">
-    <button class="tab-button active" onclick="openTab('index.html')">About Me</button>
-    <button class="tab-button" onclick="openTab('assignment.html')">Assignments</button>
-    <button class="tab-button" onclick="openTab('project.html')">Group Projects</button>
-    <button class="tab-button" onclick="openTab('discussion.html')">Discussions</button>
-    <button class="tab-button" onclick="openTab('skill.html')">Skills</button>
+    <button class="tab-button active" onclick="openTab('about')">About Me</button>
+    <button class="tab-button" onclick="openTab('assignments')">Assignments</button>
+    <button class="tab-button" onclick="openTab('projects')">Group Projects</button>
+    <button class="tab-button" onclick="openTab('discussions')">Discussions</button>
+    <button class="tab-button" onclick="openTab('skills')">Skills</button>
 </div>
-
         
 <div id="about" class="tab-content active">
     <h2>About Me</h2>
     <p>Hi everyone! I'm <strong>Emily Jao</strong>, a sophomore at Penn State majoring in <strong>Cybersecurity</strong>. I enrolled in this IST course to pursue my IST minor and explore how technology shapes the world. I’m passionate about using my skills to make a meaningful impact in tech and society.</p>
 </div>
 
-<div id="assignments" class="tab-content">
-    <!-- Content for Assignments will load here -->
-</div>
+<div id="assignments" class="tab-content active"></div>
+<div id="projects" class="tab-content active"></div>
+<div id="discussions" class="tab-content active"></div>
+<div id="skills" class="tab-content active"></div>
 
-<div id="projects" class="tab-content">
-    <!-- Content for Group Projects will load here -->
-</div>
-
-<div id="discussions" class="tab-content">
-    <!-- Content for Discussions will load here -->
-</div>
-
-<div id="skills" class="tab-content">
-    <!-- Content for Skills will load here -->
-</div>
 
     
     <script src = "portfolio.js"></script>
