@@ -7,11 +7,11 @@ function openTab(tabId, file = null) {
     const buttons = document.querySelectorAll('.tab-button');
     buttons.forEach(button => button.classList.remove('active'));
 
-    // Show selected tab content
+    // Show selected tab
     const selectedTab = document.getElementById(tabId);
     selectedTab.classList.add('active');
 
-    // Load external file if it's the first time opening that tab
+    // Load external content if file provided and not already loaded
     if (file && selectedTab.innerHTML.trim() === '') {
         fetch(file)
             .then(response => response.text())
@@ -20,13 +20,12 @@ function openTab(tabId, file = null) {
             })
             .catch(error => {
                 selectedTab.innerHTML = "<p>Error loading content.</p>";
-                console.error(`Error loading ${file}:`, error);
+                console.error("Error loading file:", file, error);
             });
     }
 
-    // Activate the clicked button
-    const index = ['about', 'assignments', 'projects', 'discussions', 'skills'].indexOf(tabId);
-    if (buttons[index]) {
-        buttons[index].classList.add('active');
-    }
+    // Highlight active button
+    const tabIndex = ['about', 'assignments', 'projects', 'discussions', 'skills'];
+    const activeButton = buttons[tabIndex.indexOf(tabId)];
+    if (activeButton) activeButton.classList.add('active');
 }
