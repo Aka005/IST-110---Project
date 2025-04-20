@@ -1,4 +1,4 @@
-function openTab(tabId) {
+I have this: function openTab(tabId) {
     // Hide all tab contents
     const contents = document.querySelectorAll('.tab-content');
     contents.forEach(content => content.classList.remove('active'));
@@ -19,10 +19,7 @@ function openTab(tabId) {
     if (tabId === 'assignments' && selectedTab.innerHTML.trim() === '') {
         fetch('assignment.html')
             .then(response => response.text())
-            .then(data => {
-                selectedTab.innerHTML = data;  // Load the content into the tab
-                selectedTab.classList.add('active');  // Make sure the tab is visible
-            })
+            .then(data => selectedTab.innerHTML = data)
             .catch(error => {
                 selectedTab.innerHTML = "<p>Error loading content.</p>";
                 console.error("Error loading assignment.html:", error);
@@ -30,10 +27,7 @@ function openTab(tabId) {
     } else if (tabId === 'projects' && selectedTab.innerHTML.trim() === '') {
         fetch('project.html')
             .then(response => response.text())
-            .then(data => {
-                selectedTab.innerHTML = data;
-                selectedTab.classList.add('active');
-            })
+            .then(data => selectedTab.innerHTML = data)
             .catch(error => {
                 selectedTab.innerHTML = "<p>Error loading content.</p>";
                 console.error("Error loading project.html:", error);
@@ -41,10 +35,7 @@ function openTab(tabId) {
     } else if (tabId === 'discussions' && selectedTab.innerHTML.trim() === '') {
         fetch('discussion.html')
             .then(response => response.text())
-            .then(data => {
-                selectedTab.innerHTML = data;
-                selectedTab.classList.add('active');
-            })
+            .then(data => selectedTab.innerHTML = data)
             .catch(error => {
                 selectedTab.innerHTML = "<p>Error loading content.</p>";
                 console.error("Error loading discussion.html:", error);
@@ -52,10 +43,7 @@ function openTab(tabId) {
     } else if (tabId === 'skills' && selectedTab.innerHTML.trim() === '') {
         fetch('skill.html')
             .then(response => response.text())
-            .then(data => {
-                selectedTab.innerHTML = data;
-                selectedTab.classList.add('active');
-            })
+            .then(data => selectedTab.innerHTML = data)
             .catch(error => {
                 selectedTab.innerHTML = "<p>Error loading content.</p>";
                 console.error("Error loading skill.html:", error);
