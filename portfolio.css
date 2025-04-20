@@ -75,3 +75,51 @@
       color: white;
     }
 
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.tab-button {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 12px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button.active {
+    background-color: #a0c4ff;
+    font-weight: bold;
+}
+
+.tab-button:hover {
+    background-color: #cde7ff;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.tab-content.active {
+    display: block;
+}
+
