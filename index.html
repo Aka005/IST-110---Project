@@ -5,27 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Emily Jao's IST 110 Portfolio</title>
     <link rel="stylesheet" href="portfolio.css">
-</head>
-<body>
+    <link rel="stylesheet" href="portfolio.js">
 
-<div class="tabs">
+    <div class="tabs">
     <button class="tab-button active" onclick="openTab('about')">About Me</button>
     <button class="tab-button" onclick="openTab('assignments', 'assignment.html')">Assignments</button>
     <button class="tab-button" onclick="openTab('projects', 'project.html')">Group Projects</button>
     <button class="tab-button" onclick="openTab('discussions', 'discussion.html')">Discussions</button>
     <button class="tab-button" onclick="openTab('skills', 'skill.html')">Skills</button>
-</div>
+    </div>
 
-<!-- Tab Containers -->
-<div id="about" class="tab-content active">
+</head>
+<body>
+
+<div class="tabs">
+    <button class="tab-button active" onclick="openTab('about')">About Me</button>
+    <button class="tab-button" onclick="openTab('assignments')">Assignments</button>
+    <button class="tab-button" onclick="openTab('projects')">Group Projects</button>
+    <button class="tab-button" onclick="openTab('discussions')">Discussions</button>
+    <button class="tab-button" onclick="openTab('skills')">Skills</button>
+</div>
+    
+        
+<div id="about" class="tab-content active"></div>
     <h2>About Me</h2>
     <p>Hi everyone! I'm <strong>Emily Jao</strong>, a sophomore at Penn State majoring in <strong>Cybersecurity</strong>. I enrolled in this IST course to pursue my IST minor and explore how technology shapes the world. I’m passionate about using my skills to make a meaningful impact in tech and society.</p>
 </div>
+
 <div id="assignments" class="tab-content"></div>
 <div id="projects" class="tab-content"></div>
 <div id="discussions" class="tab-content"></div>
 <div id="skills" class="tab-content"></div>
 
-<script src="portfolio.js"></script>
+
+    
+    <script src = "portfolio.js"></script>
 </body>
 </html>
