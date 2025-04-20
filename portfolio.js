@@ -1,4 +1,4 @@
- function openTab(tabId) {
+function openTab(tabId) {
     // Hide all tab contents
     const contents = document.querySelectorAll('.tab-content');
     contents.forEach(content => content.classList.remove('active'));
@@ -7,27 +7,26 @@
     const buttons = document.querySelectorAll('.tab-button');
     buttons.forEach(button => button.classList.remove('active'));
 
-    // Show the selected tab content
+    // Add the active class to the clicked tab and content
     const selectedTab = document.getElementById(tabId);
     selectedTab.classList.add('active');
 
-    // Highlight the active tab button
-    const activeButton = Array.from(buttons).find(button => button.textContent.toLowerCase().includes(tabId));
+    const activeButton = Array.from(buttons).find(button => button.textContent.toLowerCase() === tabId.toLowerCase());
     if (activeButton) activeButton.classList.add('active');
 
-    // Load content dynamically if necessary (from specific HTML files)
-    if (tabId === 'assignment.html' && selectedTab.innerHTML.trim() === '') {
+    // Load content dynamically if necessary (from separate HTML files)
+    if (tabId === 'assignments' && selectedTab.innerHTML.trim() === '') {
         fetch('assignment.html')
             .then(response => response.text())
             .then(data => {
                 selectedTab.innerHTML = data;
-                selectedTab.classList.add('active');  // Ensure it’s visible
+                selectedTab.classList.add('active'); // Make sure it stays visible
             })
             .catch(error => {
                 selectedTab.innerHTML = "<p>Error loading content.</p>";
                 console.error("Error loading assignment.html:", error);
             });
-    } else if (tabId === 'project.html' && selectedTab.innerHTML.trim() === '') {
+    } else if (tabId === 'projects' && selectedTab.innerHTML.trim() === '') {
         fetch('project.html')
             .then(response => response.text())
             .then(data => {
@@ -38,7 +37,7 @@
                 selectedTab.innerHTML = "<p>Error loading content.</p>";
                 console.error("Error loading project.html:", error);
             });
-    } else if (tabId === 'discussion.html' && selectedTab.innerHTML.trim() === '') {
+    } else if (tabId === 'discussions' && selectedTab.innerHTML.trim() === '') {
         fetch('discussion.html')
             .then(response => response.text())
             .then(data => {
@@ -49,7 +48,7 @@
                 selectedTab.innerHTML = "<p>Error loading content.</p>";
                 console.error("Error loading discussion.html:", error);
             });
-    } else if (tabId === 'skill.html' && selectedTab.innerHTML.trim() === '') {
+    } else if (tabId === 'skills' && selectedTab.innerHTML.trim() === '') {
         fetch('skill.html')
             .then(response => response.text())
             .then(data => {
