@@ -68,3 +68,24 @@ footer {
 footer p {
   text-align: center;
 }
+
+#pic {
+  position: relative;
+  padding: 50px 0;
+}
+
+#pic .details-container {
+  width: 375px;
+  height: 450px;
+}
+
+
+#icon {
+  position: relative;
+  padding: 50px 0;
+}
+
+#icon .details-container {
+  width: 375px;
+  height: 450px;
+}
