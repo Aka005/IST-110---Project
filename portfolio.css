@@ -86,8 +86,8 @@ footer p {
 }
 
 #icon .details-container {
-  width: 50%;
-  height: 50%;
+  width: 20px;
+  height: 50px;
 }
 
 #big {
@@ -107,5 +107,5 @@ footer p {
 
 #small .details-container {
     width: 10px; 
-    height: 25px;
+    height: -50px;
 }
