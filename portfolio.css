@@ -100,12 +100,12 @@ footer p {
     height: 50px;
 }
 
-#small {
+#me {
     position: relative;
     padding: 20px 0; 
 }
 
-#small .details-container {
+#me .details-container {
     width: 10px; 
     height: -50px;
 }
