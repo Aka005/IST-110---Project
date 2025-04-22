@@ -105,7 +105,13 @@ footer p {
     padding: 20px 0; 
 }
 
-#me .details-container {
-    width: 10px; 
-    height: -50px;
+
+#me {
+    width: 400px;
+    height: auto;
+}
+
+#me {
+    width: 300px;
+    height: auto;
 }
