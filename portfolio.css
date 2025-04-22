@@ -99,3 +99,13 @@ footer p {
     width: 20px;
     height: 50px;
 }
+
+#small {
+    position: relative;
+    padding: 20px 0; 
+}
+
+#small .details-container {
+    width: 10px; 
+    height: 25px;
+}
