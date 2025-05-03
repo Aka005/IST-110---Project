@@ -95,8 +95,8 @@
 
     .section_pic-container {
       display: flex;
-      height: 400px;
-      width: 200px;
+      height: 50%;
+      width: 50%;
       margin: auto 0;
 
       float: left;
