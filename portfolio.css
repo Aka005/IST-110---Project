@@ -198,7 +198,7 @@
       position: relative;
     }
 
-    #assignments .details-container1 {
+    #assignments .details-container {
       padding: 1.5rem;
       flex: 1;
       background: white;
@@ -206,60 +206,6 @@
       width: 400px;
       box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
       border-radius: 20px;
-      left: 30px;
-    }
-
-      #assignments .details-container2 {
-      padding: 1.5rem;
-      flex: 1;
-      background: white;
-      text-align: center;
-      width: 400px;
-      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
-    }
-
-      #assignments .details-container3 {
-      padding: 1.5rem;
-      flex: 1;
-      background: white;
-      text-align: center;
-      width: 400px;
-      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
-      right: 50px;
-    }
-
-      #assignments .details-container4 {
-      padding: 1.5rem;
-      flex: 1;
-      background: white;
-      text-align: center;
-      width: 400px;
-      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
-     left: 30px;
-    }
-
-      #assignments .details-container5 {
-      padding: 1.5rem;
-      flex: 1;
-      background: white;
-      text-align: center;
-      width: 400px;
-      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
-    }
-
-      #assignments .details-container6 {
-      padding: 1.5rem;
-      flex: 1;
-      background: white;
-      text-align: center;
-      width: 400px;
-      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
-      right: 50px
     }
 
     .about-containers {
