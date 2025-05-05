@@ -6,7 +6,7 @@
     }
 
     h1, h2 {
-      color: lightskyblue;
+      color: navy;
     }
 
     @keyframes fadeIn {
@@ -55,7 +55,7 @@
     }
 
     a:hover {
-      color: lightskyblue;
+      color: navy;
       text-decoration: underline;
       text-underline-offset: 1rem;
       text-decoration-color: rgb(181, 181, 181);
