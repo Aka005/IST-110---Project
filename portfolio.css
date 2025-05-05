@@ -93,8 +93,8 @@
     
     section .section_pic-container, .section-container {
       display: flex;
-      justify-content: center; /* Centers the content horizontally */
-      align-items: center; /* Aligns content vertically if needed */
+      justify-content: center; 
+      align-items: center; 
     }*/
 
 
