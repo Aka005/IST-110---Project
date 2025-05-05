@@ -374,11 +374,15 @@
     }
 
     #feedback #skills .section_pic-container {
-      display: flex;
-      justify-content: center; /* Centers the image horizontally */
-      align-items: center;     /* (Optional) Centers the image vertically */
-      padding: 10px;            /* Optional spacing */
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 50%;
     }
+/*display: flex;
+      justify-content: center; 
+      align-items: center;    
+      padding: 10px;        */
 
 
     /*Contact*/
