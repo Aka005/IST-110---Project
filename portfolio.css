@@ -224,6 +224,14 @@
     .about-details-container {
       display: flex;
     }
+
+
+    /*PDF*/
+
+    #myPDF{
+      width: 85%;
+      height: 975px;
+    }
     
     /*Projects*/
 
