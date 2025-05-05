@@ -319,43 +319,42 @@
     }
     
     .about-details-container {
-      justify-content: center;
+      /*justify-content: center;
       flex-direction: column;
-      letter-spacing: 2px;
+      letter-spacing: 2px;*/
+      flex: 1;
     }
     
     .about-containers,
     .about-details-container {
       display: flex;
     }
-    
-    
-    #skills, #feedback {
-      flex: 1 1 450px;
-      max-width: 600px;
-      background-color: #f9f9f9;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    }
 
+    .about-pic {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
     /*Sections*/
     .section-container {
-      /*gap: 2rem;
-      height: 80%*/
-
       display: flex;
-      flex-wrap: wrap;
+      align-items: center;
       justify-content: center;
-      gap: 40px;
+      gap: 30px;
+      flex-wrap: wrap;
     }
     
     .section_pic-container {
-      height: 400px;
+      /*height: 400px;
       width: 400px;
-      margin: auto 0;
+      margin: auto 0;*/
+
+      flex: 0 0 250px;
     }
+
+
 
     /*Contact*/
     #contact {
