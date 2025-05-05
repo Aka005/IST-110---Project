@@ -225,6 +225,16 @@
       display: flex;
     }
 
+    #assignments .details-containers1{
+      position: relative;
+      left: 30px;
+    }
+
+    #assignments .details-containers2{
+      position: absolute;
+      bottom: 300px;
+    }
+
 
     /*Projects*/
 
