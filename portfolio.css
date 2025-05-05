@@ -229,8 +229,8 @@
     /*PDF*/
 
     #myPDF{
-      width: 85%;
-      height: 400px;
+      width: 400px;
+      height: auto;
     }
 
 
