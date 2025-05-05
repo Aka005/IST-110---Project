@@ -151,7 +151,7 @@
       position: relative;
     }
 
-    .about-details-container {
+    # about .about-details-container {
       justify-content: center;
       flex-direction: column;
       letter-spacing: 2px;
@@ -169,14 +169,10 @@
       flex-wrap: wrap; /* makes it responsive on smaller screens */
     }
 
-    .section_pic-container {
+    #about .section_pic-container {
       flex: 1;
       min-width: 200px;
       max-width: 300px;
-    }
-
-    .about-details-container {
-      flex: 2;
     }
 
     .icon-first {
