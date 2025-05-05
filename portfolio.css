@@ -93,22 +93,49 @@
       height: 120vh;
     }
 
-    .section_pic-container {
+    #profile .section-container {
       display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 30px;
+    }
+
+    .section_pic-container {
+      /*display: flex;
       height: 50%;
       width: 50%;
       margin: auto 0;
 
       float: left;
-      display: flex;
+      display: flex;*/
+      flex: 0 0 250px;
+    }
+
+     .section_pic-container {
+      /*display: flex;
+      height: 50%;
+      width: 50%;
+      margin: auto 0;
+
+      float: left;
+      display: flex;*/
+      flex: 0 0 250px;
     }
 
     .section_text {
-      align-self: center;
-      text-align: center;
+        flex: 1;
+      /*align-self: center;
+      text-align: center;*/
     }
 
-    .section_text p {
+    .section_pic-container img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+   /* .section_text p {
       font-weight: 600;
     }
 
@@ -131,16 +158,65 @@
       justify-content: center;
       margin-top: 1rem;
       gap: 1rem;
-    }
+    }*/
 
     .icon {
-      cursor: pointer;
-      height: 2rem;
+      width: 30px;
+      height: 30px;
+      margin-right: 10px;
     }
+
 
 
     /*About*/
-    #about {
+    #about .section-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    
+    #about .section_pic-container {
+      flex: 0 0 250px;
+    }
+    
+    #about .about-details-container {
+      flex: 1;
+    }
+    
+    #about .section_pic-container img {
+      width: 100%;
+      max-width: 250px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    #about .about-containers {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    
+    #about .details-container {
+      display: flex;
+      gap: 15px;
+      align-items: center;
+    }
+    
+    #about .icon-first,
+    #about .icon-second {
+      width: 40px;
+      height: 40px;
+    }
+    
+    #about h3 {
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+    
+    
+     /*#about {
       position: relative;
     }
     
@@ -189,7 +265,7 @@
       width: 600px;
       box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
       border-radius: 20px;
-    }
+    }*/
     
     
     /*Assignments*/
@@ -351,7 +427,7 @@
       flex: 1;
     }
 
-    .section_pic-container about-pic {
+    .section_pic-container img {
       width: 100%;
       height: auto;
       border-radius: 12px;
