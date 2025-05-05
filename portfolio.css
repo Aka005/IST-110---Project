@@ -199,14 +199,6 @@
     }
 
     #assignments .details-container {
-      /*padding: 1.5rem;
-      flex: 1;
-      background: white;
-      text-align: center;
-      width: 400px;
-      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;*/
-
       flex: 1 1 calc(33.33% - 40px); /* 3 per row with spacing */
       box-sizing: border-box;
       padding: 10px;
@@ -216,10 +208,6 @@
     }
 
     .about-containers {
-      /*gap: 2rem;
-      margin-bottom: 2rem;
-      margin-top: 2rem;*/
-
       display: flex;
       flex-wrap: wrap;
       gap: 20px;
@@ -239,8 +227,6 @@
 
 
 
-
-
     /*Projects*/
 
     #projects {
@@ -248,19 +234,19 @@
     }
 
     #projects .details-container {
-      padding: 1.5rem;
-      flex: 1;
-      background: white;
-      text-align: center;
-      width: 600px;
-      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
-      border-radius: 20px;
+      flex: 1 1 calc(33.33% - 40px); /* 3 per row with spacing */
+      box-sizing: border-box;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      min-width: 250px;
     }
 
     .about-containers {
-      gap: 2rem;
-      margin-bottom: 2rem;
-      margin-top: 2rem;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
     }
     
     .about-details-container {
