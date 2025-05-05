@@ -75,7 +75,7 @@
     /* Section*/
     section {
       padding-top: 4vh;
-      height: 85vh;
+      height: 95vh;
       margin: 0 10rem;
       box-sizing: border-box;
       min-height: fit-content;
@@ -83,7 +83,54 @@
 
     .section-container {
       display: flex;
+      align-items: stretch;
+      justify-content: space-between;
+      gap: 20px;
     }
+    
+    .section_pic-container,
+    .about-containers {
+      flex: 1;
+    }
+
+    .section_pic-container img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .about-containers{
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+
+    .details-container {
+      flex: 1;
+      min-width: 250px;
+      max-width: 500px;
+      padding: 1.5rem;
+      background: white;
+      text-align: center;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .section-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    
+      .section_pic-container,
+      .about-containers {
+        width: 100%;
+        max-width: 500px;
+      }
+    }
+
 
 
     /*Profile*/
@@ -333,50 +380,6 @@
       max-width: 250px;
       border-radius: 12px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-
-    /*Sections*/
-    .section-container {
-      display: flex;
-      align-items: stretch;
-      justify-content: space-between;
-      gap: 20px;
-    }
-    
-    .section_pic-container,
-    .about-containers {
-      flex: 1;
-    }
-
-    .section_pic-container img {
-      width: 100%;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
-
-    .about-containers{
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .details-container{
-        list-style-type: none;
-    }
-
-    @media (max-width: 768px) {
-      .section-container {
-        flex-direction: column;
-        align-items: center;
-      }
-    
-      .section_pic-container,
-      .about-containers {
-        width: 100%;
-        max-width: 500px;
-      }
     }
 
 
