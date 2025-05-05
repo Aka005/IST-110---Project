@@ -72,7 +72,7 @@
     }
 
     /* Section*/
-    section {
+    /*section {
       padding-top: 4vh;
       height: 96vh;
 
@@ -91,7 +91,7 @@
     section h1, section p {
       margin-left: auto;
       margin-right: auto;
-    }
+    }/*
 
     /* Center images inside the section */
     section .section_pic-container, .section-container {
@@ -99,6 +99,25 @@
       justify-content: center; /* Centers the content horizontally */
       align-items: center; /* Aligns content vertically if needed */
     }
+
+
+section {
+  padding: 6vh 0; /* Adds vertical spacing above and below */
+  min-height: fit-content;
+  box-sizing: border-box;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.section-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem; /* Adds spacing between image and text */
+}
 
 
     /*Profile*/
