@@ -150,24 +150,23 @@
     #about {
       position: relative;
     }
-
-    # about .about-details-container {
-      justify-content: center;
-      flex-direction: column;
-      letter-spacing: 2px;
-    }
     
     .about-containers,
     .about-details-container {
       display: flex;
     }
 
-    #about .section-container {
+   /* #about .section-container {
       display: flex;
       align-items: flex-start;
       gap: 20px; /* space between picture and content */
       flex-wrap: wrap; /* makes it responsive on smaller screens */
     }
+# about .about-details-container {
+      justify-content: center;
+      flex-direction: column;
+      letter-spacing: 2px;
+    }*/
 
     #about .section_pic-container {
       flex: 1;
