@@ -72,7 +72,7 @@
     }
 
     /* Section*/
-    section {
+    /*section {
       padding-top: 4vh;
       height: 96vh;
       margin: 0 10rem;
@@ -82,8 +82,25 @@
 
     .section-container {
       display: flex;
-    }
+    }*/
 
+
+section {
+  width: 80%;  /* Or any specific width you prefer */
+  margin: 0 auto;  /* Centers the section horizontally */
+  text-align: center; /* Centers the text inside the section */
+}
+section h1, section p {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center images inside the section */
+section .section_pic-container, .section-container {
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Aligns content vertically if needed */
+}
 
     /*Profile*/
     #profile {
