@@ -113,7 +113,6 @@
     }
 
     .section_text {
-      flex: 1;
       align-self: center;
       text-align: center;
     }
@@ -162,12 +161,6 @@
     
     #about {
       position: relative;
-    }
-    
-    #about .details-container {
-      width: 500px;
-      height: 200px;
-      transform: translate(0%, -90%);
     }
     
     .about-containers {
