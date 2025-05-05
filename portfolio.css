@@ -161,12 +161,24 @@
     .about-details-container {
       display: flex;
     }
-    
-    .about-pic {
-      border-radius: 2rem;
-      left: 30px;
+
+    #about .section-container {
+      display: flex;
+      align-items: flex-start;
+      gap: 20px; /* space between picture and content */
+      flex-wrap: wrap; /* makes it responsive on smaller screens */
     }
-    
+
+    .section_pic-container {
+      flex: 1;
+      min-width: 200px;
+      max-width: 300px;
+    }
+
+    .about-details-container {
+      flex: 2;
+    }
+
     .icon-first {
       width: 25px;
       height: 25px;
