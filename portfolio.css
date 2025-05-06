@@ -274,12 +274,10 @@
       width: 600px;
       box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
       border-radius: 20px;
-      text-align: left;
     }
 
-    #about .details-container h2 icon-first icon-second{
-      text-align: center; /* only the list */
-      padding-left: 1rem; /* optional: adds indentation */
+    #about .details-container p, li{
+      text-align: left; 
     }
     
     
@@ -298,6 +296,10 @@
       min-width: 250px;
       background: #f2f2f2;
       text-align: center;
+    }
+
+     #assignments .details-container p, li{
+      text-align: left; 
     }
 
     .about-containers {
@@ -337,6 +339,10 @@
       text-align: center;
     }
 
+     #projects .details-container p, li{
+      text-align: left; 
+    }
+
     #projects .about-containers {
       display: flex;
       flex-wrap: wrap;
@@ -372,6 +378,10 @@
       border-radius: 10px;
       background: #f2f2f2;
       text-align: center;
+    }
+
+     #discussions .details-container p{
+      text-align: left; 
     }
 
     #discussions .about-containers {
@@ -429,6 +439,11 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
+    #projects .details-container p, li{
+      text-align: left; 
+    }
+
+
     <!--Picture-->
     #feedback .section_pic-container {
       display: flex;
@@ -462,12 +477,11 @@
       width: 600px;
       box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
       border-radius: 20px;
-      text-align: left;
+      text-align: center;
     }
 
-    #skills .details-container h2 {
-      text-align: center; /* only the list */
-      padding-left: 1rem; /* optional: adds indentation */
+    #skills .details-container li{
+      text-align: left; 
     }
 
     .about-containers {
