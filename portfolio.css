@@ -277,7 +277,7 @@
       text-align: left;
     }
 
-    #about .details-container h2 {
+    #about .details-container h2 icon-first icon-second{
       text-align: center; /* only the list */
       padding-left: 1rem; /* optional: adds indentation */
     }
