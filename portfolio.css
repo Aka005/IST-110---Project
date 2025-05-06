@@ -443,6 +443,23 @@
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
+    <!--Picture-->
+    #feedback .section_pic-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 700px;
+      max-height: 700px;
+      overflow: hidden;
+    }
+
+    #feedback .section_pic-container img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
 
 
 
