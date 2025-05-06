@@ -62,7 +62,7 @@
 
     .logo img {
       font-size: 2rem;
-      width: 55%;
+      width: 45%;
       height: auto;
     }
 
@@ -404,10 +404,12 @@
       flex: 1;
     }
     
-    .about-containers {
+    #feedback .about-containers {
       display: flex;
       flex-wrap: wrap;
-      gap: 20px;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
     }
     
     #feedback .details-container {
@@ -434,7 +436,6 @@
       object-fit: cover;
       border-radius: 10px;
     }
-
 
 
 
