@@ -431,10 +431,11 @@
     }
 
     #feedback .section_pic-container img {
-      width: 100%;
+       width: 100%;
+      max-width: 500px; /* adjust this size */
       height: auto;
+      border-radius: 20px; /* optional: for rounded corners */
       object-fit: cover;
-      border-radius: 10px;
     }
 
 
@@ -480,6 +481,15 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
+    .section-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      padding: 2rem 0;
+    }
+
     #skills .section_pic-container {
       display: flex;
       justify-content: center;
@@ -496,7 +506,6 @@
       border-radius: 20px; /* optional: for rounded corners */
       object-fit: cover;
     }
-
 
 
     /*Contact*/
