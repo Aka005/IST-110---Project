@@ -377,7 +377,6 @@
     #feedback #skills .section_pic-container {
       display: flex;
       flex-direction: column;
-      max-width: 600px;  
       margin: 0 auto;
     }
 
