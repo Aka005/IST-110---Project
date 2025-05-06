@@ -353,7 +353,7 @@
       position: relative;
     }
 
-    #discussions .details-container {
+   /* #discussions .details-container {
       padding: 1.5rem;
       flex: 1;
       background: white;
@@ -378,7 +378,38 @@
     .about-containers,
     .about-details-container {
       display: flex;
+    }*/
+
+
+    #discussions .details-container {
+      flex: 1 1 calc(50% - 40px); /* 2 per row with spacing */
+      box-sizing: border-box;
+      min-width: 280px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
     }
+
+    #discussions .about-containers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    
+    .about-details-container {
+      justify-content: center;
+      flex-direction: column;
+      letter-spacing: 2px;
+    }
+    
+    .about-containers,
+    .about-details-container {
+      display: flex;
+    }
+    
+
     
 
     /*Skills*/
