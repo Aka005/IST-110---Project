@@ -437,7 +437,7 @@
     
     #feedback .details-container {
       flex: 1 1 calc(50% - 20px); /* Two per row */
-      background-color: #f2f2f2;
+      background-color: white;
       padding: 15px;
       border-radius: 10px;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
