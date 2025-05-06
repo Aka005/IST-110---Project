@@ -377,8 +377,7 @@
     #feedback #skills .section_pic-container {
       width: 100%;
       height: auto;
-      object-fit: cover;
-      border-radius: 50%;
+      
     }
 /*display: flex;
       justify-content: center; 
