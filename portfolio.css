@@ -1,5 +1,5 @@
     body {
-      background-color: #f9f9fb;
+      background-color: #FFFFFF;
       color: black;
       margin: 40px;
     }
@@ -209,7 +209,7 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      background-color: white;
+      background-color: #FFFFFF;
       border-radius: 50%;
       width: 60px;
       height: 60px;
