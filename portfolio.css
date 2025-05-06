@@ -266,7 +266,7 @@
       height: 28px;
     }
     
-    .details-container {
+    #about .details-container {
       padding: 1.5rem;
       flex: 1;
       background: white;
@@ -275,6 +275,11 @@
       box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
       border-radius: 20px;
       text-align: left;
+    }
+
+    #about .details-container h2 {
+      text-align: center; /* only the list */
+      padding-left: 1rem; /* optional: adds indentation */
     }
     
     
@@ -292,6 +297,7 @@
       border-radius: 10px;
       min-width: 250px;
       background: #f2f2f2;
+      text-align: center;
     }
 
     .about-containers {
@@ -328,6 +334,7 @@
       border: 1px solid #ccc;
       border-radius: 10px;
       background: #f2f2f2;
+      text-align: center;
     }
 
     #projects .about-containers {
@@ -364,6 +371,7 @@
       border: 1px solid #ccc;
       border-radius: 10px;
       background: #f2f2f2;
+      text-align: center;
     }
 
     #discussions .about-containers {
@@ -451,11 +459,15 @@
       padding: 1.5rem;
       flex: 1;
       background: white;
-      text-align: center;
       width: 600px;
       box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
       border-radius: 20px;
       text-align: left;
+    }
+
+    #skills .details-container h2 {
+      text-align: center; /* only the list */
+      padding-left: 1rem; /* optional: adds indentation */
     }
 
     .about-containers {
@@ -465,9 +477,6 @@
     }
     
     .about-details-container {
-      /*justify-content: center;
-      flex-direction: column;
-      letter-spacing: 2px;*/
       flex: 1;
     }
     
