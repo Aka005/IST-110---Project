@@ -489,11 +489,12 @@
       overflow: hidden;
     }
 
-    #skills .section_pic-container img {
+    #skills .section_pic-container img.about-pic {
       width: 100%;
+      max-width: 500px; /* adjust this size */
       height: auto;
+      border-radius: 20px; /* optional: for rounded corners */
       object-fit: cover;
-      border-radius: 10px;
     }
 
 
