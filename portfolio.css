@@ -302,7 +302,7 @@
     }
     
     
-    /*Assignments*/
+    /*Individual Assignments*/
 
     #assignments {
       position: relative;
@@ -341,48 +341,6 @@
       display: flex;
     }
 
-
-
-    /*Projects*/
-
-    #projects {
-      position: relative;
-    }
-
-    #projects .details-container {
-      flex: 1 1 calc(50% - 40px); /* 2 per row with spacing */
-      box-sizing: border-box;
-      min-width: 280px;
-      padding: 15px;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      background: #f2f2f2;
-      text-align: center;
-    }
-
-     #projects .details-container p{
-      text-align: left; 
-    }
-
-    #projects .about-containers {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 40px;
-      margin-top: 40px;
-    }
-    
-    .about-details-container {
-      justify-content: center;
-      flex-direction: column;
-      letter-spacing: 2px;
-    }
-    
-    .about-containers,
-    .about-details-container {
-      display: flex;
-    }
-    
 
     /*Discussions*/
 
@@ -423,8 +381,88 @@
     .about-details-container {
       display: flex;
     }
+
+
+    /*Group Assignments*/
+
+    #group {
+      position: relative;
+    }
+
+    #group .details-container {
+      flex: 1 1 calc(50% - 40px); /* 2 per row with spacing */
+      box-sizing: border-box;
+      min-width: 280px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background: #f2f2f2;
+      text-align: center;
+    }
+
+     #group .details-container p{
+      text-align: left; 
+    }
+
+    #group .about-containers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    
+    .about-details-container {
+      justify-content: center;
+      flex-direction: column;
+      letter-spacing: 2px;
+    }
+    
+    .about-containers,
+    .about-details-container {
+      display: flex;
+    }
     
 
+    /*Project*/
+
+    #project {
+      position: relative;
+    }
+
+    #project .details-container {
+      flex: 1 1 calc(50% - 40px); /* 2 per row with spacing */
+      box-sizing: border-box;
+      min-width: 280px;
+      padding: 15px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background: #f2f2f2;
+      text-align: center;
+    }
+
+     #project .details-container p{
+      text-align: left; 
+    }
+
+    #project .about-containers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      margin-top: 40px;
+    }
+    
+    .about-details-container {
+      justify-content: center;
+      flex-direction: column;
+      letter-spacing: 2px;
+    }
+    
+    .about-containers,
+    .about-details-container {
+      display: flex;
+    }
 
 
     /*Feedback*/
