@@ -24,10 +24,9 @@
     }
 
     .details-container iframe {
-      width: 80%;     /* or try 70% or 60% based on your design */
-      height: 500px;  /* adjust height as needed */
-      margin: 20px auto;
-      display: block;
+      margin-top: 10px;
+      width: 100%;  /* optional: ensures it scales well */
+      height: 400px; /* optional: consistent sizing */
       border: 1px solid #ccc; /* optional: cleaner look */
     }
 
