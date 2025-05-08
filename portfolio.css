@@ -2,12 +2,6 @@
       padding: 0;
       text-align: center;
     }
-    
-    /*.centered-list li {
-      
-      margin: 10px 0;
-      text-align: center;
-    }*/
 
     .details-container li {
       list-style-position: inside;
@@ -21,12 +15,6 @@
       display: flex;
       justify-content: center;
       margin: 10px 0 15px 0; /* top-right-bottom-left */
-    }
-
-    .btn-container:hover {
-      background-color: white; /* Or your preferred hover color */
-      color: white;
-      transition: 0.3s;
     }
 
 
