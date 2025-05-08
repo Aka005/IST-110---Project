@@ -3,25 +3,24 @@
       color: black;
       margin: 40px;
     }
-
+    
     h1, h2 {
       color: #003775;
     }
-
+    
     @keyframes fadeIn {
       from {opacity: 0;}
       to {opacity: 1;}
     }
-
+    
     li {
       margin-top: 10px;
       font-weight: bold;
     }
-
+    
     p {
       margin-left: 20px;
     }
-
 
     /*Transition*/
     a,
