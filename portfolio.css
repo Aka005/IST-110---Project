@@ -23,6 +23,15 @@
       margin: 10px 0 15px 0; /* top-right-bottom-left */
     }
 
+    .details-container iframe {
+      width: 80%;     /* or try 70% or 60% based on your design */
+      height: 500px;  /* adjust height as needed */
+      margin: 20px auto;
+      display: block;
+      border: 1px solid #ccc; /* optional: cleaner look */
+    }
+
+
 
     body {
       background-color: #FFFFFF;
@@ -464,13 +473,6 @@
       border-radius: 10px;
       background: #f2f2f2;
       text-align: center;
-    }
-
-    .details-container iframe {
-      margin-top: 10px;
-      width: 100%;  /* optional: ensures it scales well */
-      height: 400px; /* optional: consistent sizing */
-      border: 1px solid #ccc; /* optional: cleaner look */
     }
 
      #project .details-container p{
