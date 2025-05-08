@@ -3,10 +3,20 @@
       text-align: center;
     }
     
-    .centered-list li {
+    /*.centered-list li {
+      
       margin: 10px 0; /* optional spacing */
       text-align: center;
+    }*/
+
+    .details-container li {
+      list-style-position: inside;
+      padding-left: 10px;
+      margin-bottom: 10px;
+      font-size: 1rem;
+      color: #333; /* or whatever your text color is */
     }
+
 
     body {
       background-color: #FFFFFF;
