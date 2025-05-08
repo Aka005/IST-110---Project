@@ -1,3 +1,13 @@
+    .centered-list {
+      list-style-type: none; /* remove bullet points */
+      padding: 0;
+      text-align: center;
+    }
+    
+    .centered-list li {
+      margin: 10px 0; /* optional spacing */
+    }
+
     body {
       background-color: #FFFFFF;
       color: black;
