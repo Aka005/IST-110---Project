@@ -17,6 +17,18 @@
       color: #333; /* or whatever your text color is */
     }
 
+    .btn-container {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0 15px 0; /* top-right-bottom-left */
+    }
+
+    .btn-container:hover {
+      background-color: white; /* Or your preferred hover color */
+      color: white;
+      transition: 0.3s;
+    }
+
 
     body {
       background-color: #FFFFFF;
@@ -458,6 +470,13 @@
       border-radius: 10px;
       background: #f2f2f2;
       text-align: center;
+    }
+
+    .details-container iframe {
+      margin-top: 10px;
+      width: 100%;  /* optional: ensures it scales well */
+      height: 400px; /* optional: consistent sizing */
+      border: 1px solid #ccc; /* optional: cleaner look */
     }
 
      #project .details-container p{
